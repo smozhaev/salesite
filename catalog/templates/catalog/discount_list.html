@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h1>Скидки и Акции</h1>
+
+    {% if discount_list %}
+    <ul>
+        {% for discount in discount_list %}
+        <li>
+            <a href="{{ discount.get_absolute_url }}">{{ discount.title }}</a> ({{discount.sales}})
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+      <p>Скидок и акций нету</p>
+    {% endif %}
+{% endblock %}

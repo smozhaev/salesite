@@ -11,7 +11,7 @@ admin.site.register(Tag)
 
 @admin.register(Discount)
 class DiscountAdmin(admin.ModelAdmin):
-    list_display = ('title', 'description', 'sales', 'categories', 'sale_date_start', 'sale_date_end', 'status', 'company' )
+    list_display = ('title', 'description', 'sales', 'categories', 'sale_date_start', 'sale_date_end', 'status', 'company',)
     list_filter = ('categories', 'sale_date_start', 'sale_date_end', 'status')
     date_hierarchy = 'sale_date_start'
     inlines = []  # атрибут inlines, позволяет добавить встраиваемые объекты (например, редактирование связанных объектов)
@@ -36,7 +36,7 @@ class DiscountAdmin(admin.ModelAdmin):
             'fields': ['title', 'description', ('company', 'categories'), 'created_at']
         }),
         ('Информация о акции', {
-            'fields': ['sales', ('sale_date_start', 'sale_date_end'), 'status', 'tags', 'my_discount_status']
+            'fields': ['sales', ('sale_date_start', 'sale_date_end'), 'status', 'tags']
         }),
     )
     filter_horizontal = ('tags',)

@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'catalog.apps.CatalogConfig',
     'rest_framework',
+    'django_filters',
+    'simple_history',
+    'import_export',
 ]
 
 REST_FRAMEWORK = {

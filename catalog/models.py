@@ -5,6 +5,7 @@ from datetime import date
 from django.core.exceptions import ValidationError
 from django.contrib.auth.models import User
 
+from simple_history.models import HistoricalRecords
 
 
 class Company(models.Model):
@@ -75,7 +76,7 @@ class Discount(models.Model):
     status = models.ForeignKey(Status, on_delete=models.SET_NULL, null=True)
     tags = models.ManyToManyField(Tag)
     created_at = models.DateTimeField(default=date.today)
-
+    history = HistoricalRecords()
 
     def clean(self):
         if self.sale_date_start > self.sale_date_end:

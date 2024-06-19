@@ -1,3 +1,4 @@
+import datetime
 import uuid
 
 from django.db import models
@@ -92,5 +93,22 @@ class Discount(models.Model):
         verbose_name_plural = 'Акции'
 
 
+class UserProfile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.DO_NOTHING, default=None, blank=True, null=True)
+    date_time = models.DateTimeField(default=datetime.MINYEAR)
+    url = models.URLField(blank=True)
+    request_data = models.TextField(blank=True)
+    response_code = models.CharField(max_length=3, blank=True)
+    os = models.CharField(max_length=20, blank=True)
+    http_agent = models.CharField(max_length=20, blank=True)
 
+    def __str__(self):
+        if self.user:
+            return self.user.username
+
+        return "Anonymous"
+
+    class Meta:
+        verbose_name = 'Лог пользователя'
+        verbose_name_plural = 'Логи пользователей'
 

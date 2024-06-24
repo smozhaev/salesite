@@ -1,9 +1,15 @@
+from catalog.services import DatabaseStoreService
 import random
 from celery import shared_task
 from django.contrib.auth.models import User
 from django.core.mail import send_mail
 from catalog.models import Discount
 
+
+@shared_task()
+def store_logging():
+    service = DatabaseStoreService()
+    service.store_cache_in_database()
 
 @shared_task()
 def send_email_task():

@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./app
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./app/:/usr/src/app/
+    ports:
+      - 8000:8000
+    depends_on:
+      - redis
+      - mailhog
+    networks:
+      - my_net
+
+  redis:
+    image: redis:7-alpine
+    networks:
+      - my_net
+
+  celery:
+    build: ./app
+    command: celery -A salessite worker -l info
+    volumes:
+      - ./app/:/usr/src/app/
+    networks:
+      - my_net
+    depends_on:
+      - redis
+
+  celery-beat:
+    build: ./app
+    command: celery -A salessite beat -l info
+    volumes:
+      - ./app/:/usr/src/app/
+    networks:
+      - my_net
+    depends_on:
+      - redis
+
+  mailhog:
+    image: mailhog/mailhog
+    restart: always
+    networks:
+      - my_net
+    ports:
+      - "1025:1025" #127.0.0.1:1025:1025  
+      - "8025:8025"
+  flower:
+    image: mher/flower:0.9.7
+    command: ['flower', '--broker=redis://redis:6379', '--port=5555']
+    ports:
+      - "5555:5555"
+    depends_on:
+      - redis
+    networks:
+      - my_net
+
+networks:
+  my_net:

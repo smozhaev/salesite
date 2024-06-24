@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'django_filters',
     'simple_history',
     'import_export',
+    'salessite',
+    'django_celery_results',
+    'django_celery_beat'
 ]
 
 REST_FRAMEWORK = {
@@ -138,5 +141,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = '/'
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST='mailhog'
+EMAIL_PORT=1025
 
+CELERY_BROKER_URL = "redis://redis:6379"
+CELERY_RESULT_BACKEND = "redis://redis:6379"
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers.DatabaseScheduler'

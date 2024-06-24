@@ -33,12 +33,30 @@ class CachingService:
             data.request_data = self.request.POST
 
         data.response_code = self.response.status_code
-        data.date_time = datetime.now(timezone.utc).strftime("%y%m%d%H%M%S")
+        data.date_time = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S%z')
         data.url = self.request.path
         data.os = httpagentparser.detect(self.request.headers["User-Agent"])["os"]
         data.http_agent = self.request.headers["User-Agent"]
 
         key += data.date_time
-        print(model_to_dict(data))
         return cache.set(key, json.dumps(model_to_dict(data)))
 
+
+class DatabaseStoreService:
+    def __init__(self):
+        pass
+
+    def store_cache_in_database(self):
+        keys = cache.keys('*')
+        if len(keys) == 0:
+            return False
+
+        for key in keys:
+            value = json.loads(cache.get(key))
+            print(value)
+            profile = UserProfile(user=value['user'], date_time=value['date_time'], url=value['url'], os=value['os'],
+                                    http_agent=value['http_agent'], request_data=value['request_data'],
+                                    response_code=value['response_code'])
+            profile.save()
+
+        return True

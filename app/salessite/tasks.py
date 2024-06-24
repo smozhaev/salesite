@@ -1,4 +1,4 @@
-import random
+from catalog.services import DatabaseStoreService
 from celery import shared_task
 from django.contrib.auth.models import User
 from django.core.mail import send_mail
@@ -27,3 +27,7 @@ def send_email_task():
         results.append(status)
     return f"Всего поль-ей: {len(results)}\nУспешно отправлены: {sum(results)}"
 
+@shared_task
+def store_logging():
+    service = DatabaseStoreService()
+    service.store_cache_in_database()

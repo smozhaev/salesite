@@ -1,6 +1,5 @@
 from . import views
-from django.conf.urls import url
-from django.urls import include, path
+from django.urls import include, path, re_path as url
 from rest_framework.routers import DefaultRouter
 from .views import DiscountViewSet, DiscountApiView, CompanyViewSet, CompanyApiView
 # Создаем экземпляр маршрутизатора

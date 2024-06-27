@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'import_export',
     'salessite',
     'django_celery_results',
-    'django_celery_beat'
+    'django_celery_beat',
+    'drf_yasg'
 ]
 
 REST_FRAMEWORK = {

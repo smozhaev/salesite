@@ -1,0 +1,5 @@
+django==3.2
+djangorestframework>=3.9.0,<4.0
+django-filter>=2.0.0,<3.0
+django-simple-history
+django-import-export

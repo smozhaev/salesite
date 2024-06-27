@@ -173,8 +173,8 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 # google settings
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = os.getenv('SOCIAL_AUTH_GOOGLE_OAUTH2_KEY')
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.getenv('SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET')
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = open('client.txt', 'r').readline()
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = open('secret.txt', 'r').readline()
 SOCIAL_AUTH_URL_NAMESPACE = 'social'
 
 

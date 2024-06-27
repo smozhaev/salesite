@@ -34,3 +34,4 @@ wcwidth==0.2.13
 pylint-django==2.5.5
 pylint==3.2.4
 black==24.4.2
+drf-yasg==1.21.7

@@ -37,15 +37,16 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "django.contrib.staticfiles",
     "catalog.apps.CatalogConfig",
     "rest_framework",
     "django_filters",
     "simple_history",
     "import_export",
-    "salessite",
     "django_celery_results",
     "django_celery_beat",
+    "django.contrib.staticfiles",  
+    "drf_yasg",
+    "salessite",
 ]
 
 REST_FRAMEWORK = {

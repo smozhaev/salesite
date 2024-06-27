@@ -8,9 +8,11 @@ from catalog.models import Discount
 @shared_task()
 def send_email_task():
     email_address = "amirgataullin04@gmail.com"
-    last_discount = Discount.objects.latest('sale_date_start')
-    message = f'''{last_discount.title}\n\n{last_discount.description}\n'''\
-            f'''Размер скидки: {last_discount.sales}\n{last_discount.company}'''
+    last_discount = Discount.objects.latest("sale_date_start")
+    message = (
+        f"""{last_discount.title}\n\n{last_discount.description}\n"""
+        f"""Размер скидки: {last_discount.sales}\n{last_discount.company}"""
+    )
 
     users = User.objects.all()
     results = []
@@ -26,6 +28,7 @@ def send_email_task():
         )
         results.append(status)
     return f"Всего поль-ей: {len(results)}\nУспешно отправлены: {sum(results)}"
+
 
 @shared_task
 def store_logging():

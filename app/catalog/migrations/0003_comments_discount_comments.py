@@ -7,20 +7,32 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('catalog', '0002_alter_discount_created_at'),
+        ("catalog", "0002_alter_discount_created_at"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Comments',
+            name="Comments",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('text', models.CharField(max_length=100)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("text", models.CharField(max_length=100)),
             ],
         ),
         migrations.AddField(
-            model_name='discount',
-            name='comments',
-            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, to='catalog.comments'),
+            model_name="discount",
+            name="comments",
+            field=models.ForeignKey(
+                null=True,
+                on_delete=django.db.models.deletion.SET_NULL,
+                to="catalog.comments",
+            ),
         ),
     ]

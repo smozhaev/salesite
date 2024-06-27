@@ -12,4 +12,3 @@ class LogUsersRequestsMiddleware(object):
             print("Couldn't log user's request")
 
         return response
-

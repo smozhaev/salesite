@@ -6,12 +6,12 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('catalog', '0008_alter_discount_options'),
+        ("catalog", "0008_alter_discount_options"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='discount',
-            name='my_discount_status',
+            model_name="discount",
+            name="my_discount_status",
         ),
     ]

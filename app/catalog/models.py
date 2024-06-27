@@ -17,8 +17,8 @@ class Company(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = 'Компания'
-        verbose_name_plural = 'Компании'
+        verbose_name = "Компания"
+        verbose_name_plural = "Компании"
 
 
 class Category(models.Model):
@@ -28,8 +28,8 @@ class Category(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = 'Категория'
-        verbose_name_plural = 'Категории'
+        verbose_name = "Категория"
+        verbose_name_plural = "Категории"
 
 
 class Sales(models.Model):
@@ -40,8 +40,8 @@ class Sales(models.Model):
         return self.sales
 
     class Meta:
-        verbose_name = 'Скидка'
-        verbose_name_plural = 'Скидки'
+        verbose_name = "Скидка"
+        verbose_name_plural = "Скидки"
 
 
 class Status(models.Model):
@@ -51,8 +51,8 @@ class Status(models.Model):
         return self.status
 
     class Meta:
-        verbose_name = 'Статус Акции'
-        verbose_name_plural = 'Статусы Акций'
+        verbose_name = "Статус Акции"
+        verbose_name_plural = "Статусы Акций"
 
 
 class Tag(models.Model):
@@ -62,8 +62,8 @@ class Tag(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = 'Хэштег'
-        verbose_name_plural = 'Хэштеги'
+        verbose_name = "Хэштег"
+        verbose_name_plural = "Хэштеги"
 
 
 class Discount(models.Model):
@@ -83,18 +83,20 @@ class Discount(models.Model):
         if self.sale_date_start > self.sale_date_end:
             raise ValidationError("Начальная дата не может быть позже конечной даты.")
 
-    clean.short_description = 'My Method for dates'
+    clean.short_description = "My Method for dates"
 
     def __str__(self):
         return self.title
 
     class Meta:
-        verbose_name = 'Акция'
-        verbose_name_plural = 'Акции'
+        verbose_name = "Акция"
+        verbose_name_plural = "Акции"
 
 
 class UserProfile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.DO_NOTHING, default=None, blank=True, null=True)
+    user = models.OneToOneField(
+        User, on_delete=models.DO_NOTHING, default=None, blank=True, null=True
+    )
     date_time = models.DateTimeField(default=datetime.MINYEAR)
     url = models.URLField(blank=True)
     request_data = models.TextField(blank=True)
@@ -109,6 +111,5 @@ class UserProfile(models.Model):
         return "Anonymous"
 
     class Meta:
-        verbose_name = 'Лог пользователя'
-        verbose_name_plural = 'Логи пользователей'
-
+        verbose_name = "Лог пользователя"
+        verbose_name_plural = "Логи пользователей"

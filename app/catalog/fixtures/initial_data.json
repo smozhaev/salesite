@@ -1,0 +1,3662 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-07-06T12:42:26.579Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Вкусно и Точка",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-07-06T12:42:32.644Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Фастфуд",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-07-06T12:42:43.087Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "-10%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-07-06T12:43:00.021Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "активен",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-07-06T12:43:09.005Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Лето в разгаре",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-07-06T12:43:14.901Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Времяпрепровождение",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-07-06T12:43:23.749Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Полный угар",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-07-06T13:06:14.131Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Ланч",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-07-06T15:07:35.309Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Од",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-07-06T15:07:40.932Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-07-06T15:07:50.442Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Кинотеатры",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-07-06T15:08:04.800Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Магазины Электроники",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-07-06T15:08:25.999Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Экскурсии",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-07-06T15:08:32.545Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Туры",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-07-06T15:08:58.530Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Продуктовые",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-07-06T15:09:16.926Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Хоз-товары",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-07-06T15:09:40.728Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Развлечения",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-07-06T15:10:08.588Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Детские игрушки",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-07-06T15:10:27.026Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "неактивен",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-07-06T15:10:40.330Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "закончилась",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-07-06T15:10:49.175Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "не началась",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-07-06T15:11:08.939Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "товар разобран",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-07-06T15:11:31.335Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "ожидает начала",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-07-06T15:12:30.261Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "не подтверждена",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-07-06T15:12:46.277Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "-20%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-07-06T15:13:10.659Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Zara",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-07-06T15:13:33.030Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Синема Парк",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-07-06T15:14:12.049Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Детский Мир",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-07-06T15:18:41.506Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Летняя Распродажа одежды",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-07-06T15:21:37.560Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Скидки на кино Весь Июнь",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-07-06T15:22:39.689Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Скидки на водяные пистолеты",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-07-07T15:59:22.302Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Полный угар",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-07-25T08:41:49.619Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Полный угар",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-07-25T08:43:18.012Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Fix Price",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-07-25T08:44:50.746Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "-30%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-07-25T08:45:37.945Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Все для дома",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-07-25T08:45:49.848Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Скидка на моющие средства",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-07-25T08:46:49.140Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Ланч",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-07-25T08:47:28.633Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Скидки на водяные пистолеты",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-07-25T08:49:07.550Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Леонардо",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-07-25T08:49:29.507Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Канцтовары",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-07-25T08:50:47.444Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "-40%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-07-25T08:51:00.817Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Все для школы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-07-25T08:51:13.078Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Вместе в школу",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-07-25T08:51:22.556Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Все в для школы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-07-25T08:53:45.961Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "ТурыРоссии",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-07-25T08:54:13.813Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "Скидка на тур по золотому кольцу России",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-07-25T08:55:17.925Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Пятёрочка",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-07-25T08:56:07.116Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "-60%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-07-25T08:57:12.967Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Вторники с Пятёрочкой",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-07-25T08:58:10.156Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "ГречкуВсем",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-07-25T08:58:13.458Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Скидка на Гречку только сегодня!!!!!!",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-07-25T08:59:39.356Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "apple",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-07-25T08:59:58.570Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Техника",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2023-07-25T09:00:21.058Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "apple",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2023-07-25T09:00:42.986Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "-100%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2023-07-25T09:00:45.178Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Раздача бесплатных Айфонов",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2023-07-25T09:01:41.378Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Проходит проверку",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2023-07-25T09:01:59.377Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Не надежный источник",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2023-07-25T09:02:16.480Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Ненадежный источник",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2023-07-25T09:03:04.817Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Осторожно мошенники",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2023-07-25T09:03:52.439Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Раздача бесплатных Айфонов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2023-07-25T09:43:08.685Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Пользователи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2023-07-25T09:45:21.845Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "test1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2023-07-25T09:47:18.562Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "test1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2023-07-26T12:48:12.090Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Ланч",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"My discount status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2023-08-23T18:17:45.072Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Ыыыы",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2023-09-05T19:36:53.211Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "13",
+    "object_repr": "лодл",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2023-09-05T19:36:53.213Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "sdadasd",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2023-09-05T19:37:16.349Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Пирожки",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2023-09-05T19:37:33.537Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "-50%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2023-09-05T19:37:42.625Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "-60%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2023-09-05T19:37:48.314Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "-70%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2023-09-05T19:37:53.514Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "-80%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2023-09-05T19:37:59.307Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "-90%",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2023-09-05T19:38:09.821Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "-60%",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2023-09-05T19:38:46.960Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Скидка на Гречку только сегодня!!!!!!",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Sales\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2023-09-05T19:39:58.333Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Скидка на Гречку только сегодня!!!!!!",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2023-09-06T06:08:56.865Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Садовые принадлежности",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2023-09-06T06:09:36.102Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Осень",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2023-09-06T06:09:42.393Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "Садовые принадлежности",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2023-09-24T12:59:41.884Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "Садовые принадлежности",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Sale date start\", \"Sale date end\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2023-09-24T12:59:41.906Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "Садовые принадлежности",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Sale date start\", \"Sale date end\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2023-09-24T12:59:41.988Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "Садовые принадлежности",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Sale date start\", \"Sale date end\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2024-01-09T20:53:16.492Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Шаурма",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2024-01-09T20:54:18.550Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "Горячий завтрак",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2024-01-09T20:54:31.490Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "16",
+    "object_repr": "Кофе + шаурма",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2024-01-09T22:04:15.228Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Старбакс",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2024-01-09T22:05:35.437Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Зимняя скидка",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2024-01-09T22:05:41.799Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "17",
+    "object_repr": "3 кофе по цене двух",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2024-01-09T22:40:00.439Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Макдональдс",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2024-01-09T22:41:12.253Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "18",
+    "object_repr": "Скидка в макдоналдсе",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2024-01-10T00:14:03.905Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "15",
+    "object_repr": "fewfw",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2024-01-10T00:14:51.910Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "19",
+    "object_repr": "Аузылщаыа",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2024-01-10T00:19:28.859Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "19",
+    "object_repr": "Акция! Пельмени во Вкусно и Точка",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Description\", \"Company\", \"Categories\", \"Sales\", \"Sale date start\", \"Sale date end\", \"Status\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2024-06-23T10:23:01.553Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "test1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2024-06-23T11:28:15.997Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Egor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2024-06-23T11:28:25.796Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Egor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2024-06-23T11:37:17.599Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "0 4 * * * (m/h/dM/MY/d) Europe/Moscow",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2024-06-23T11:37:23.456Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "2",
+    "object_repr": "* * * * * (m/h/dM/MY/d) Europe/Moscow",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2024-06-23T11:45:16.458Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "4",
+    "object_repr": "* * * * * (m/h/dM/MY/d) Europe/Moscow",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2024-06-23T11:45:16.465Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "6",
+    "object_repr": "44 14 * * * (m/h/dM/MY/d) Europe/Moscow",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2024-06-23T11:45:16.473Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "3",
+    "object_repr": "0 4 * * * (m/h/dM/MY/d) Europe/Moscow",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2024-06-23T11:45:16.483Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "5",
+    "object_repr": "43 14 * * 1 (m/h/dM/MY/d) Europe/Moscow",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2024-06-23T13:09:59.471Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "7",
+    "object_repr": "10 16 * * * (m/h/dM/MY/d) Europe/Moscow",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Minute(s)\", \"Hour(s)\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2024-06-23T13:10:22.111Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "7",
+    "object_repr": "11 16 * * * (m/h/dM/MY/d) Europe/Moscow",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Minute(s)\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Категория",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Категория",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Категория",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Категория",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Компания",
+    "content_type": 8,
+    "codename": "add_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Компания",
+    "content_type": 8,
+    "codename": "change_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Компания",
+    "content_type": 8,
+    "codename": "delete_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Компания",
+    "content_type": 8,
+    "codename": "view_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Скидка",
+    "content_type": 9,
+    "codename": "add_sales"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Скидка",
+    "content_type": 9,
+    "codename": "change_sales"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Скидка",
+    "content_type": 9,
+    "codename": "delete_sales"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Скидка",
+    "content_type": 9,
+    "codename": "view_sales"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Статус Акции",
+    "content_type": 10,
+    "codename": "add_status"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Статус Акции",
+    "content_type": 10,
+    "codename": "change_status"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Статус Акции",
+    "content_type": 10,
+    "codename": "delete_status"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Статус Акции",
+    "content_type": 10,
+    "codename": "view_status"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Хэштег",
+    "content_type": 11,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Хэштег",
+    "content_type": 11,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Хэштег",
+    "content_type": 11,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Хэштег",
+    "content_type": 11,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add Акция",
+    "content_type": 12,
+    "codename": "add_discount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change Акция",
+    "content_type": 12,
+    "codename": "change_discount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete Акция",
+    "content_type": 12,
+    "codename": "delete_discount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view Акция",
+    "content_type": 12,
+    "codename": "view_discount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add comments",
+    "content_type": 13,
+    "codename": "add_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change comments",
+    "content_type": 13,
+    "codename": "change_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete comments",
+    "content_type": 13,
+    "codename": "delete_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view comments",
+    "content_type": 13,
+    "codename": "view_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add historical Акция",
+    "content_type": 14,
+    "codename": "add_historicaldiscount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change historical Акция",
+    "content_type": 14,
+    "codename": "change_historicaldiscount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete historical Акция",
+    "content_type": 14,
+    "codename": "delete_historicaldiscount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view historical Акция",
+    "content_type": 14,
+    "codename": "view_historicaldiscount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add task result",
+    "content_type": 15,
+    "codename": "add_taskresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change task result",
+    "content_type": 15,
+    "codename": "change_taskresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete task result",
+    "content_type": 15,
+    "codename": "delete_taskresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view task result",
+    "content_type": 15,
+    "codename": "view_taskresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add chord counter",
+    "content_type": 16,
+    "codename": "add_chordcounter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change chord counter",
+    "content_type": 16,
+    "codename": "change_chordcounter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete chord counter",
+    "content_type": 16,
+    "codename": "delete_chordcounter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view chord counter",
+    "content_type": 16,
+    "codename": "view_chordcounter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add group result",
+    "content_type": 17,
+    "codename": "add_groupresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change group result",
+    "content_type": 17,
+    "codename": "change_groupresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete group result",
+    "content_type": 17,
+    "codename": "delete_groupresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view group result",
+    "content_type": 17,
+    "codename": "view_groupresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add crontab",
+    "content_type": 18,
+    "codename": "add_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change crontab",
+    "content_type": 18,
+    "codename": "change_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete crontab",
+    "content_type": 18,
+    "codename": "delete_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view crontab",
+    "content_type": 18,
+    "codename": "view_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add interval",
+    "content_type": 19,
+    "codename": "add_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change interval",
+    "content_type": 19,
+    "codename": "change_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete interval",
+    "content_type": 19,
+    "codename": "delete_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view interval",
+    "content_type": 19,
+    "codename": "view_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add periodic task",
+    "content_type": 20,
+    "codename": "add_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change periodic task",
+    "content_type": 20,
+    "codename": "change_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete periodic task",
+    "content_type": 20,
+    "codename": "delete_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view periodic task",
+    "content_type": 20,
+    "codename": "view_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add periodic tasks",
+    "content_type": 21,
+    "codename": "add_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change periodic tasks",
+    "content_type": 21,
+    "codename": "change_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete periodic tasks",
+    "content_type": 21,
+    "codename": "delete_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view periodic tasks",
+    "content_type": 21,
+    "codename": "view_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can add solar event",
+    "content_type": 22,
+    "codename": "add_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can change solar event",
+    "content_type": 22,
+    "codename": "change_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can delete solar event",
+    "content_type": 22,
+    "codename": "delete_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can view solar event",
+    "content_type": 22,
+    "codename": "view_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 89,
+  "fields": {
+    "name": "Can add clocked",
+    "content_type": 23,
+    "codename": "add_clockedschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 90,
+  "fields": {
+    "name": "Can change clocked",
+    "content_type": 23,
+    "codename": "change_clockedschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 91,
+  "fields": {
+    "name": "Can delete clocked",
+    "content_type": 23,
+    "codename": "delete_clockedschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 92,
+  "fields": {
+    "name": "Can view clocked",
+    "content_type": 23,
+    "codename": "view_clockedschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 93,
+  "fields": {
+    "name": "Can add Лог пользователя",
+    "content_type": 24,
+    "codename": "add_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 94,
+  "fields": {
+    "name": "Can change Лог пользователя",
+    "content_type": 24,
+    "codename": "change_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 95,
+  "fields": {
+    "name": "Can delete Лог пользователя",
+    "content_type": 24,
+    "codename": "delete_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 96,
+  "fields": {
+    "name": "Can view Лог пользователя",
+    "content_type": 24,
+    "codename": "view_userprofile"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Пользователи",
+    "permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$DMXYfZgj52tejnTG9eapxu$NmOzaYAZeh9V33trxtmNbOTRQIE9RgE2yf648ONUDys=",
+    "last_login": "2024-06-27T12:21:42.462Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-07-06T12:41:21.575Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$vFg3VKoWx019za1351rpKw$+Me54oDLaxFHYpf+JItm/ygwsCnxPbTV19/PVjDno7Q=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Egor",
+    "first_name": "",
+    "last_name": "",
+    "email": "amirgataullin04@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-23T11:28:15Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "catalog",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "catalog",
+    "model": "company"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "catalog",
+    "model": "sales"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "catalog",
+    "model": "status"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "catalog",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "catalog",
+    "model": "discount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "catalog",
+    "model": "comments"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "catalog",
+    "model": "historicaldiscount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "django_celery_results",
+    "model": "taskresult"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "django_celery_results",
+    "model": "chordcounter"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "django_celery_results",
+    "model": "groupresult"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "crontabschedule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "intervalschedule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "periodictask"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "periodictasks"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "solarschedule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 23,
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "clockedschedule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 24,
+  "fields": {
+    "app_label": "catalog",
+    "model": "userprofile"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0bwg2z4u72vma6w26ltbncrcaokm5dko",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAQpmVcuvcMZBhGqRpISrsy3l2bdKHb_977LxVpXUpcu8xxyuqkrDr8bon4IXUD-U711jS3usxT0puid9r1pWV5nnf376BQL9_6CJiRgqDzfjA8WPBsGelKguLQjhRMNuBE2CYOyABkGHyG0WFIoN4f2Xg3sg:1qdbwq:UZ83ZzWt6XXVOSTREGmaHmyo2OFErsUMZpmZsw8dQGk",
+    "expire_date": "2023-09-19T19:42:52.885Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0j8nggchhck143jhpaqvdvstdldgs6pn",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYrikMYpS_Y9Q2U7Li2gROpnhbg7VOoCtm9m3sv0tK1jvy0691M2FwPm9LsxyUPLDvKdyq1aqWWdJ7a7Yg-62K5mfV4P9-9gpGX81gphwMixjdiAMidsgwQnSVGTi42KD2eGgG6gDM77hlBzYnEg5DOY9wfXUzfH:1qHUDE:dkDllS1PbNqnlFYs4j_BepPkg0B9YS6UzHXcXEoDt90",
+    "expire_date": "2023-07-20T19:00:20.093Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3ya5lims58ag8b7ifkg1aw7bqc5atc0a",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYrikMYpS_Y9Q2U7Li2gROpnhbg7VOoCtm9m3sv0tK1jvy0691M2FwPm9LsxyUPLDvKdyq1aqWWdJ7a7Yg-62K5mfV4P9-9gpGX81gphwMixjdiAMidsgwQnSVGTi42KD2eGgG6gDM77hlBzYnEg5DOY9wfXUzfH:1qHOIc:tPYsg95qHyhFGaCAVlqhl_7Y7ob5T-YUHwkTtroCT3c",
+    "expire_date": "2023-07-20T12:41:30.074Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6duekvupc8oqpmqagip0vuigskatr5am",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSEwv9hlep8BLew6kA-WjEkT5e6xJRdJ-2bevJmHtibfKi0-IxtYx06_W4B4p7IDvEG5zjzOZV1y4LvCD1r5OCM9Lof7F0hQ0_YmjXLC6Wyj66i3hkzQQhgntTI9aeUExWBBIUmNJJQkCRHJBd0jWjBbtLSnf-Wa18oG-_kCYTk9kQ:1qU4oe:vSKDsC7ePPMpNpeLL6kZkgaRSrZSoTCESGUyDU2rQ04",
+    "expire_date": "2023-08-24T12:31:00.698Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9gwhp7tfy0gmiq3db4y6whz51kowr70t",
+  "fields": {
+    "session_data": "eyJudW1fdmlzaXRzIjoyfQ:1r7i6E:WnUsPFRGMZovloyLMsamgzGbNW0Fmz83vogOdy314k4",
+    "expire_date": "2023-12-11T20:20:58.587Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "als9ew5m22u7qbu81pcyaz97n4iwo7v3",
+  "fields": {
+    "session_data": "eyJudW1fdmlzaXRzIjo3fQ:1rNBEB:h8wens81dj4os729IXK8KarZpFzHV9E1XUYdOVJAXrQ",
+    "expire_date": "2024-01-23T12:29:07.904Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e1xbnyu1rvavrwmjp0f6oiyrpmi8dbbv",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQBe_iOrJs8IKXMn3OYK3Xm-B8jIQhTZS7J0g0tG9m3keV9RXeuealqqE5qUDrMoa1yhxyUoOy6rBF4oeUDaQ7ldukeSrLnKPeFL3Tqi9Tkud5dw8HI9XxXzeACckLts51hjsLji0jXUlQWrQ9eZMMtCJsI3tkADIMLkHfoo-gvj99fzzf:1qkOfT:FUyXOyTKYwnqSwF55Kp6T8YtR26ecnIAHBrgZBHx1tk",
+    "expire_date": "2023-10-08T12:56:59.076Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ox5t34grp4jtr9sy0srvknsxr7qr3av9",
+  "fields": {
+    "session_data": ".eJxVjs0OwiAQhN-FsyFlgWJ79O4zkGUXLP7QpLRejO-uJD3odb5vJvMSHrd18luNi88sRqHE4TcLSLdYGuArlsssaS7rkoNsitxpleeZ4_20u38DE9bp29aAHYOxbAcAMgiqMxxUAFADOhsTDco5MHRMRpPuiXvd2xTQ6pAst1dle_hnrnmtYlTvDzBsPLU:1sLTTu:S2zr2wuFxFB13uYP0FuLCliDMizktfXB8KnTQRj4bug",
+    "expire_date": "2024-07-07T20:06:34.809Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uk9ctbmaw6fn80b4oxxc6dhuqrvxkapj",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQBe_iOrJs8IKXMn3OYK3Xm-B8jIQhTZS7J0g0tG9m3keV9RXeuealqqE5qUDrMoa1yhxyUoOy6rBF4oeUDaQ7ldukeSrLnKPeFL3Tqi9Tkud5dw8HI9XxXzeACckLts51hjsLji0jXUlQWrQ9eZMMtCJsI3tkADIMLkHfoo-gvj99fzzf:1rNG6c:7O96_bIMvpk4aEaHANjjSR07Bp5viJ_vMqptTjX57Lg",
+    "expire_date": "2024-01-23T17:41:38.770Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xhu28ow33ivp405izae3ovce2k3i07tt",
+  "fields": {
+    "session_data": "eyJudW1fdmlzaXRzIjoyfQ:1qU7s9:Azz2QtIAuxsMuZdnEbwSEmvjW2h-4qyIq8MlpegignQ",
+    "expire_date": "2023-08-24T15:46:49.771Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y88cv0bvv9dklauaz8qwqk124pt8vsis",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFsuyB49O43kAUWqRpISnsy_rtt0oMeZ96beQtP61L82nn2UxIXAeL02wWKT647SA-q9yZjq8s8Bbkr8qBd3lri1_Vw_w4K9bKtFTqifIaU0UIcw2CCATUCjiaqLVimaLXThg1gRtSAoFTWDvMAgbX4fAHF8jbQ:1sMo8E:MAUBNvOAcrleMCkvwiKTzTW1e990aVuQ6Ss6dmfodrU",
+    "expire_date": "2024-07-11T12:21:42.472Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z8bzbddzh82v2u3wlwwumnw4f6cyudx6",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGkU29ibelPScwVqvF2I-jhQnNIi7k0gpoH0zb94q0DIPYakyhZxUr4w6_G6R-C5lA-lG5To2PJZ5yrHZlGantTmPSR6n3f0LDFSH9X0ETEhe0DrXam4NODaMdCFBsWg68jppsCJsIntkANIMLkFn0UdYo2V5hleuea6qt58vRQo84A:1qkP6F:2vVOktpusKiEpqrVRuIxAiXzu2RE4MLg2LbsRt_BG38",
+    "expire_date": "2023-10-08T13:24:39.152Z"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 1,
+  "fields": {
+    "name": "Вкусно и Точка",
+    "description": "фастфуд рестораны"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 2,
+  "fields": {
+    "name": "Zara",
+    "description": "Сеть магазинов одежды"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 3,
+  "fields": {
+    "name": "Синема Парк",
+    "description": "Сеть кинотеатров"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 4,
+  "fields": {
+    "name": "Детский Мир",
+    "description": "Магазин детских игрушек"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 5,
+  "fields": {
+    "name": "Fix Price",
+    "description": "Универсальный, бюджетный супермаркет"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 6,
+  "fields": {
+    "name": "Леонардо",
+    "description": "Магазин для хоббизма и канцтоваров"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 7,
+  "fields": {
+    "name": "ТурыРоссии",
+    "description": "Туры по России"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 8,
+  "fields": {
+    "name": "Пятёрочка",
+    "description": "Сеть супермаркетов"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 9,
+  "fields": {
+    "name": "apple",
+    "description": "Производитель смартфонов"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 10,
+  "fields": {
+    "name": "Шаурма",
+    "description": "Сеть шаурмечных 24 часа"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 11,
+  "fields": {
+    "name": "Старбакс",
+    "description": "Кофейня, международная сеть"
+  }
+},
+{
+  "model": "catalog.company",
+  "pk": 12,
+  "fields": {
+    "name": "Макдональдс",
+    "description": "Фастфуд американский"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Фастфуд"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 2,
+  "fields": {
+    "name": "Одежда"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 3,
+  "fields": {
+    "name": "Кинотеатры"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 4,
+  "fields": {
+    "name": "Магазины Электроники"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 5,
+  "fields": {
+    "name": "Экскурсии"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 6,
+  "fields": {
+    "name": "Туры"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 7,
+  "fields": {
+    "name": "Продуктовые"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 8,
+  "fields": {
+    "name": "Хоз-товары"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 9,
+  "fields": {
+    "name": "Развлечения"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 10,
+  "fields": {
+    "name": "Детские игрушки"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 11,
+  "fields": {
+    "name": "Канцтовары"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 12,
+  "fields": {
+    "name": "Техника"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 13,
+  "fields": {
+    "name": "Садовые принадлежности"
+  }
+},
+{
+  "model": "catalog.sales",
+  "pk": 1,
+  "fields": {
+    "sales": "-10%"
+  }
+},
+{
+  "model": "catalog.sales",
+  "pk": 2,
+  "fields": {
+    "sales": "-20%"
+  }
+},
+{
+  "model": "catalog.sales",
+  "pk": 3,
+  "fields": {
+    "sales": "-30%"
+  }
+},
+{
+  "model": "catalog.sales",
+  "pk": 4,
+  "fields": {
+    "sales": "-40%"
+  }
+},
+{
+  "model": "catalog.sales",
+  "pk": 6,
+  "fields": {
+    "sales": "-100%"
+  }
+},
+{
+  "model": "catalog.sales",
+  "pk": 7,
+  "fields": {
+    "sales": "-50%"
+  }
+},
+{
+  "model": "catalog.sales",
+  "pk": 8,
+  "fields": {
+    "sales": "-60%"
+  }
+},
+{
+  "model": "catalog.sales",
+  "pk": 9,
+  "fields": {
+    "sales": "-70%"
+  }
+},
+{
+  "model": "catalog.sales",
+  "pk": 10,
+  "fields": {
+    "sales": "-80%"
+  }
+},
+{
+  "model": "catalog.sales",
+  "pk": 11,
+  "fields": {
+    "sales": "-90%"
+  }
+},
+{
+  "model": "catalog.status",
+  "pk": 1,
+  "fields": {
+    "status": "активен"
+  }
+},
+{
+  "model": "catalog.status",
+  "pk": 2,
+  "fields": {
+    "status": "неактивен"
+  }
+},
+{
+  "model": "catalog.status",
+  "pk": 3,
+  "fields": {
+    "status": "закончилась"
+  }
+},
+{
+  "model": "catalog.status",
+  "pk": 4,
+  "fields": {
+    "status": "не началась"
+  }
+},
+{
+  "model": "catalog.status",
+  "pk": 5,
+  "fields": {
+    "status": "товар разобран"
+  }
+},
+{
+  "model": "catalog.status",
+  "pk": 6,
+  "fields": {
+    "status": "ожидает начала"
+  }
+},
+{
+  "model": "catalog.status",
+  "pk": 7,
+  "fields": {
+    "status": "не подтверждена"
+  }
+},
+{
+  "model": "catalog.status",
+  "pk": 8,
+  "fields": {
+    "status": "Проходит проверку"
+  }
+},
+{
+  "model": "catalog.status",
+  "pk": 9,
+  "fields": {
+    "status": "Ненадежный источник"
+  }
+},
+{
+  "model": "catalog.status",
+  "pk": 10,
+  "fields": {
+    "status": "Осторожно мошенники"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Лето в разгаре"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Времяпрепровождение"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Полный угар"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Все для дома"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Все для школы"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Вместе в школу"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Вторники с Пятёрочкой"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 9,
+  "fields": {
+    "name": "ГречкуВсем"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 10,
+  "fields": {
+    "name": "apple"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 11,
+  "fields": {
+    "name": "Осень"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 12,
+  "fields": {
+    "name": "Горячий завтрак"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 13,
+  "fields": {
+    "name": "Зимняя скидка"
+  }
+},
+{
+  "model": "catalog.historicaldiscount",
+  "pk": 1,
+  "fields": {
+    "id": 15,
+    "title": "fewfw",
+    "description": "не коректное тестовое описание",
+    "sale_date_start": "2023-11-27",
+    "sale_date_end": "2023-11-27",
+    "created_at": "2023-11-26T21:00:00Z",
+    "company": 1,
+    "categories": 3,
+    "sales": 3,
+    "status": 4,
+    "history_date": "2024-01-10T00:14:03.903Z",
+    "history_change_reason": null,
+    "history_type": "~",
+    "history_user": 1
+  }
+},
+{
+  "model": "catalog.historicaldiscount",
+  "pk": 2,
+  "fields": {
+    "id": 19,
+    "title": "Аузылщаыа",
+    "description": "уыаыуаыу",
+    "sale_date_start": "2024-01-10",
+    "sale_date_end": "2024-01-12",
+    "created_at": "2024-01-09T21:00:00Z",
+    "company": 2,
+    "categories": 2,
+    "sales": 2,
+    "status": 2,
+    "history_date": "2024-01-10T00:14:51.908Z",
+    "history_change_reason": null,
+    "history_type": "+",
+    "history_user": 1
+  }
+},
+{
+  "model": "catalog.historicaldiscount",
+  "pk": 3,
+  "fields": {
+    "id": 19,
+    "title": "Акция! Пельмени во Вкусно и Точка",
+    "description": "Только на этой недели пельмени во Вкусно и точка",
+    "sale_date_start": "2024-01-08",
+    "sale_date_end": "2024-01-16",
+    "created_at": "2024-01-09T21:00:00Z",
+    "company": 1,
+    "categories": 1,
+    "sales": 1,
+    "status": 1,
+    "history_date": "2024-01-10T00:19:28.857Z",
+    "history_change_reason": null,
+    "history_type": "~",
+    "history_user": 1
+  }
+},
+{
+  "model": "catalog.historicaldiscount",
+  "pk": 4,
+  "fields": {
+    "id": 1,
+    "title": "Ланч",
+    "description": "Ланчx",
+    "sale_date_start": "2023-07-06",
+    "sale_date_end": "2023-07-06",
+    "created_at": "2023-07-05T21:00:00Z",
+    "company": 1,
+    "categories": 1,
+    "sales": 1,
+    "status": 3,
+    "history_date": "2024-01-10T03:22:31.239Z",
+    "history_change_reason": null,
+    "history_type": "~",
+    "history_user": null
+  }
+},
+{
+  "model": "catalog.historicaldiscount",
+  "pk": 5,
+  "fields": {
+    "id": 1,
+    "title": "Ланч",
+    "description": "dawdawdawd",
+    "sale_date_start": "2023-07-06",
+    "sale_date_end": "2023-07-06",
+    "created_at": "2023-07-05T21:00:00Z",
+    "company": 1,
+    "categories": 1,
+    "sales": 1,
+    "status": 3,
+    "history_date": "2024-01-10T03:23:20.004Z",
+    "history_change_reason": null,
+    "history_type": "~",
+    "history_user": null
+  }
+},
+{
+  "model": "catalog.historicaldiscount",
+  "pk": 6,
+  "fields": {
+    "id": 20,
+    "title": "Питса",
+    "description": "Питса + кола бисплатно",
+    "sale_date_start": "2024-06-23",
+    "sale_date_end": "2024-12-23",
+    "created_at": "2024-06-22T21:00:00Z",
+    "company": 11,
+    "categories": null,
+    "sales": 1,
+    "status": 1,
+    "history_date": "2024-06-23T20:07:19.164Z",
+    "history_change_reason": null,
+    "history_type": "+",
+    "history_user": null
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 1,
+  "fields": {
+    "title": "Ланч",
+    "description": "dawdawdawd",
+    "company": 1,
+    "categories": 1,
+    "sales": 1,
+    "sale_date_start": "2023-07-06",
+    "sale_date_end": "2023-07-06",
+    "status": 3,
+    "created_at": "2023-07-05T21:00:00Z",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 2,
+  "fields": {
+    "title": "Летняя Распродажа одежды",
+    "description": "Все лето действуют скидки на вещи для пляжного отдыха",
+    "company": 2,
+    "categories": 2,
+    "sales": 2,
+    "sale_date_start": "2023-06-01",
+    "sale_date_end": "2023-08-31",
+    "status": 1,
+    "created_at": "2023-07-05T21:00:00Z",
+    "tags": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 3,
+  "fields": {
+    "title": "Скидки на кино Весь Июнь",
+    "description": "Скидки на билеты в кинотератры с 12 до 00",
+    "company": 3,
+    "categories": 3,
+    "sales": 1,
+    "sale_date_start": "2023-06-01",
+    "sale_date_end": "2023-06-30",
+    "status": 3,
+    "created_at": "2023-07-05T21:00:00Z",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 4,
+  "fields": {
+    "title": "Скидки на водяные пистолеты",
+    "description": "Скидки на водометы-игрушки",
+    "company": 4,
+    "categories": 10,
+    "sales": 1,
+    "sale_date_start": "2023-07-08",
+    "sale_date_end": "2023-07-13",
+    "status": 5,
+    "created_at": "2023-07-05T21:00:00Z",
+    "tags": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 5,
+  "fields": {
+    "title": "Скидка на моющие средства",
+    "description": "Скидка на моющие средства в Fix Price в этом месяце",
+    "company": 5,
+    "categories": 8,
+    "sales": 3,
+    "sale_date_start": "2023-07-25",
+    "sale_date_end": "2023-08-31",
+    "status": 1,
+    "created_at": "2023-07-24T21:00:00Z",
+    "tags": [
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 6,
+  "fields": {
+    "title": "Все в для школы",
+    "description": "Скидка на товары для школы в Леонардо",
+    "company": 6,
+    "categories": 11,
+    "sales": 4,
+    "sale_date_start": "2023-08-20",
+    "sale_date_end": "2023-09-10",
+    "status": 4,
+    "created_at": "2023-07-24T21:00:00Z",
+    "tags": [
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 7,
+  "fields": {
+    "title": "Скидка на тур по золотому кольцу России",
+    "description": "Скидка на тур по золотому Кольцу России  по золотому  в Июле",
+    "company": 7,
+    "categories": 6,
+    "sales": 2,
+    "sale_date_start": "2023-07-25",
+    "sale_date_end": "2023-07-25",
+    "status": 1,
+    "created_at": "2023-07-24T21:00:00Z",
+    "tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 9,
+  "fields": {
+    "title": "Раздача бесплатных Айфонов",
+    "description": "Раздача бесплатных Айфонов",
+    "company": 9,
+    "categories": 12,
+    "sales": 6,
+    "sale_date_start": "2023-07-25",
+    "sale_date_end": "2023-07-25",
+    "status": 8,
+    "created_at": "2023-07-24T21:00:00Z",
+    "tags": [
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 11,
+  "fields": {
+    "title": "Пирожки",
+    "description": "пирожки по акции",
+    "company": 1,
+    "categories": 1,
+    "sales": 1,
+    "sale_date_start": "2023-08-24",
+    "sale_date_end": "2023-09-30",
+    "status": 9,
+    "created_at": "2023-08-23T21:00:00Z",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 14,
+  "fields": {
+    "title": "Садовые принадлежности",
+    "description": "Распродажа садовых принадлежностей",
+    "company": 5,
+    "categories": 13,
+    "sales": 9,
+    "sale_date_start": "2023-09-24",
+    "sale_date_end": "2023-09-30",
+    "status": 1,
+    "created_at": "2023-09-05T21:00:00Z",
+    "tags": [
+      11
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 15,
+  "fields": {
+    "title": "fewfw",
+    "description": "не коректное тестовое описание",
+    "company": 1,
+    "categories": 3,
+    "sales": 3,
+    "sale_date_start": "2023-11-27",
+    "sale_date_end": "2023-11-27",
+    "status": 4,
+    "created_at": "2023-11-26T21:00:00Z",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 16,
+  "fields": {
+    "title": "Кофе + шаурма",
+    "description": "Купите в холодный зимний вечер наше кофе с шаурмой",
+    "company": 10,
+    "categories": 1,
+    "sales": 1,
+    "sale_date_start": "2024-01-09",
+    "sale_date_end": "2024-01-31",
+    "status": 1,
+    "created_at": "2024-01-08T21:00:00Z",
+    "tags": [
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 17,
+  "fields": {
+    "title": "3 кофе по цене двух",
+    "description": "Купи 3 кофе по цене двух",
+    "company": 11,
+    "categories": 1,
+    "sales": 3,
+    "sale_date_start": "2023-12-10",
+    "sale_date_end": "2024-01-24",
+    "status": 1,
+    "created_at": "2024-01-09T21:00:00Z",
+    "tags": [
+      13
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 18,
+  "fields": {
+    "title": "Скидка в макдоналдсе",
+    "description": "Скидка в макдоналдсе, два бургера по цене трех",
+    "company": 12,
+    "categories": 1,
+    "sales": 3,
+    "sale_date_start": "2023-12-05",
+    "sale_date_end": "2024-01-09",
+    "status": 3,
+    "created_at": "2024-01-09T21:00:00Z",
+    "tags": [
+      12,
+      13
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 19,
+  "fields": {
+    "title": "Акция! Пельмени во Вкусно и Точка",
+    "description": "Только на этой недели пельмени во Вкусно и точка",
+    "company": 1,
+    "categories": 1,
+    "sales": 1,
+    "sale_date_start": "2024-01-08",
+    "sale_date_end": "2024-01-16",
+    "status": 1,
+    "created_at": "2024-01-09T21:00:00Z",
+    "tags": [
+      12,
+      13
+    ]
+  }
+},
+{
+  "model": "catalog.discount",
+  "pk": 20,
+  "fields": {
+    "title": "Питса",
+    "description": "Питса + кола бисплатно",
+    "company": 11,
+    "categories": null,
+    "sales": 1,
+    "sale_date_start": "2024-06-23",
+    "sale_date_end": "2024-12-23",
+    "status": 1,
+    "created_at": "2024-06-22T21:00:00Z",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 7,
+  "fields": {
+    "minute": "11",
+    "hour": "16",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 8,
+  "fields": {
+    "minute": "0",
+    "hour": "4",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 9,
+  "fields": {
+    "minute": "44",
+    "hour": "19",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 10,
+  "fields": {
+    "minute": "15",
+    "hour": "16",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 11,
+  "fields": {
+    "minute": "59",
+    "hour": "22",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 12,
+  "fields": {
+    "minute": "8",
+    "hour": "23",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 13,
+  "fields": {
+    "minute": "17",
+    "hour": "11",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 14,
+  "fields": {
+    "minute": "23",
+    "hour": "11",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 15,
+  "fields": {
+    "minute": "11",
+    "hour": "14",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 16,
+  "fields": {
+    "minute": "16",
+    "hour": "14",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 17,
+  "fields": {
+    "minute": "22",
+    "hour": "14",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 18,
+  "fields": {
+    "minute": "29",
+    "hour": "14",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 19,
+  "fields": {
+    "minute": "45",
+    "hour": "14",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 20,
+  "fields": {
+    "minute": "*/20",
+    "hour": "*",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "Europe/Moscow"
+  }
+},
+{
+  "model": "django_celery_beat.periodictasks",
+  "pk": 1,
+  "fields": {
+    "last_update": "2024-06-27T12:21:30.189Z"
+  }
+},
+{
+  "model": "django_celery_beat.periodictask",
+  "pk": 4,
+  "fields": {
+    "name": "send-message",
+    "task": "salessite.tasks.send_email_task",
+    "interval": null,
+    "crontab": 19,
+    "solar": null,
+    "clocked": null,
+    "args": "[]",
+    "kwargs": "{}",
+    "queue": null,
+    "exchange": null,
+    "routing_key": null,
+    "headers": "{}",
+    "priority": null,
+    "expires": null,
+    "expire_seconds": null,
+    "one_off": false,
+    "start_time": null,
+    "enabled": true,
+    "last_run_at": "2024-06-27T12:21:30.252Z",
+    "total_run_count": 15,
+    "date_changed": "2024-06-27T12:21:30.327Z",
+    "description": ""
+  }
+},
+{
+  "model": "django_celery_beat.periodictask",
+  "pk": 5,
+  "fields": {
+    "name": "celery.backend_cleanup",
+    "task": "celery.backend_cleanup",
+    "interval": null,
+    "crontab": 8,
+    "solar": null,
+    "clocked": null,
+    "args": "[]",
+    "kwargs": "{}",
+    "queue": null,
+    "exchange": null,
+    "routing_key": null,
+    "headers": "{}",
+    "priority": null,
+    "expires": null,
+    "expire_seconds": 43200,
+    "one_off": false,
+    "start_time": null,
+    "enabled": true,
+    "last_run_at": "2024-06-27T12:21:30.372Z",
+    "total_run_count": 2,
+    "date_changed": "2024-06-27T12:23:17.581Z",
+    "description": ""
+  }
+},
+{
+  "model": "django_celery_beat.periodictask",
+  "pk": 6,
+  "fields": {
+    "name": "store-cache",
+    "task": "salessite.tasks.store_logging",
+    "interval": null,
+    "crontab": 20,
+    "solar": null,
+    "clocked": null,
+    "args": "[]",
+    "kwargs": "{}",
+    "queue": null,
+    "exchange": null,
+    "routing_key": null,
+    "headers": "{}",
+    "priority": null,
+    "expires": null,
+    "expire_seconds": null,
+    "one_off": false,
+    "start_time": null,
+    "enabled": true,
+    "last_run_at": null,
+    "total_run_count": 0,
+    "date_changed": "2024-06-27T12:21:30.184Z",
+    "description": ""
+  }
+}
+]

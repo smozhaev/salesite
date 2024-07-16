@@ -11,6 +11,7 @@ def store_logging():
     service = DatabaseStoreService()
     service.store_cache_in_database()
 
+
 @shared_task()
 def send_email_task():
     email_address = "amirgataullin04@gmail.com"
@@ -34,4 +35,3 @@ def send_email_task():
         )
         results.append(status)
     return f"Всего поль-ей: {len(results)}\nУспешно отправлены: {sum(results)}"
-

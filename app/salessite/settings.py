@@ -32,32 +32,32 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'catalog.apps.CatalogConfig',
-    'rest_framework',
-    'rest_framework.authtoken',
-    'django.contrib.sites',
-    'social_django',
-    'django_filters',
-    'simple_history',
-    'import_export',
-    'salessite',
-    'django_celery_results',
-    'django_celery_beat',
-    'drf_yasg'
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "catalog.apps.CatalogConfig",
+    "rest_framework",
+    "rest_framework.authtoken",
+    "django.contrib.sites",
+    "social_django",
+    "django_filters",
+    "simple_history",
+    "import_export",
+    "salessite",
+    "django_celery_results",
+    "django_celery_beat",
+    "drf_yasg",
 ]
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': [ 
-        'rest_framework.authentication.TokenAuthentication', 
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.TokenAuthentication",
     ],
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 5
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 5,
 }
 
 MIDDLEWARE = [
@@ -82,20 +82,20 @@ CACHES = {
     }
 }
 
-ROOT_URLCONF = 'salessite.urls'
+ROOT_URLCONF = "salessite.urls"
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-                'social_django.context_processors.backends',
+        "BACKEND": "django.template.backends.django.DjangoTemplates",
+        "DIRS": [os.path.join(BASE_DIR, "templates")],
+        "APP_DIRS": True,
+        "OPTIONS": {
+            "context_processors": [
+                "django.template.context_processors.debug",
+                "django.template.context_processors.request",
+                "django.contrib.auth.context_processors.auth",
+                "django.contrib.messages.context_processors.messages",
+                "social_django.context_processors.backends",
             ],
         },
     },
@@ -170,15 +170,15 @@ EMAIL_PORT = 1025
 
 # AUTH backend
 AUTHENTICATION_BACKENDS = (
-    'social_core.backends.google.GoogleOAuth2',
-    'django.contrib.auth.backends.ModelBackend',
+    "social_core.backends.google.GoogleOAuth2",
+    "django.contrib.auth.backends.ModelBackend",
 )
 # google settings
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = open('client.txt', 'r').readline()
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = open('secret.txt', 'r').readline()
-SOCIAL_AUTH_URL_NAMESPACE = 'social'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = open("client.txt", "r").readline()
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = open("secret.txt", "r").readline()
+SOCIAL_AUTH_URL_NAMESPACE = "social"
 
 
 CELERY_BROKER_URL = "redis://redis:6379"
 CELERY_RESULT_BACKEND = "redis://redis:6379"
-CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers.DatabaseScheduler'
+CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers.DatabaseScheduler"

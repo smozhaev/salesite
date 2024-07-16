@@ -10,8 +10,8 @@ urlpatterns = [
     path("admin/", admin.site.urls),
 ]
 
-urlpatterns += [ 
-    path('token/', obtain_auth_token), 
+urlpatterns += [
+    path("token/", obtain_auth_token),
 ]
 
 urlpatterns += [
@@ -30,7 +30,5 @@ urlpatterns += [
 
 
 urlpatterns += [
-    path('', include('social_django.urls')),
+    path("", include("social_django.urls")),
 ]
-
-

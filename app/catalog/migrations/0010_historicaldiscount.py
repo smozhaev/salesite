@@ -8,7 +8,6 @@ import simple_history.models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
         ("catalog", "0009_remove_discount_my_discount_status"),

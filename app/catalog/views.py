@@ -79,7 +79,6 @@ def create(request):
 
 
 class DiscountApiView(generics.ListAPIView):
-
     queryset = Discount.objects.all()
     serializer_class = DiscountSerializer
     # permission_classes = [IsAuthenticated]
@@ -98,7 +97,6 @@ class DiscountApiView(generics.ListAPIView):
     ordering_fields = ["created_at"]
 
     def get_queryset(self):
-
         queryset = Discount.objects.all()
 
         queryset = queryset.filter(
@@ -157,7 +155,6 @@ class DiscountViewSet(viewsets.ModelViewSet):
 
 
 class CompanyApiView(generics.ListAPIView):
-
     queryset = Company.objects.all()
     serializer_class = CompanySerializer
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
@@ -167,7 +164,6 @@ class CompanyApiView(generics.ListAPIView):
     ordering_fields = ["description"]
 
     def get_queryset(self):
-
         # Регулярные выражения для русских и английских букв
         regex_russian = r"[а-яА-Я]"
         regex_english = r"[a-zA-Z]"
@@ -185,6 +181,5 @@ class CompanyApiView(generics.ListAPIView):
 
 
 class CompanyViewSet(viewsets.ModelViewSet):
-
     queryset = Company.objects.all()
     serializer_class = CompanySerializer

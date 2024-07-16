@@ -7,7 +7,6 @@ from .models import Discount
 
 
 class DiscountForm(ModelForm):
-
     class Meta:
         model = Discount
         fields = [

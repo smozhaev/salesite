@@ -16,7 +16,7 @@ router.register(r"company", CompanyViewSet, basename="company")
 schema_view = get_schema_view(
     openapi.Info(
         title="Your Project API",
-        default_version='v1',
+        default_version="v1",
         description="API documentation",
         terms_of_service="https://www.google.com/policies/terms/",
         contact=openapi.Contact(email="contact@yourproject.local"),
@@ -40,7 +40,10 @@ urlpatterns = [
     path("api/v1/discountApi/", DiscountApiView.as_view(), name="discountApi"),
     path("api/v1/companyApi/", CompanyApiView.as_view(), name="companyApi"),
     # url(r'^book/(?P<pk>[-\w]+)/renew/$', views.renew_book_librarian, name='renew-book-librarian'),
-    path("swagger/", schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    path("redoc/", schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-
+    path(
+        "swagger/",
+        schema_view.with_ui("swagger", cache_timeout=0),
+        name="schema-swagger-ui",
+    ),
+    path("redoc/", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"),
 ]
